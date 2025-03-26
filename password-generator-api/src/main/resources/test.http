@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/generate-password
+Content-Type: application/json
+
+{
+  "length": 10,
+  "useUppercase": true,
+  "useLowercase": true,
+  "useNumbers": true,
+  "useSpecialChars": true
+}
